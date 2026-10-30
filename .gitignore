@@ -1,0 +1,46 @@
+
+# ==========================================
+# CHAPTERBOX - GIT IGNORE
+# ==========================================
+
+# Original documents and personal reading materials
+/input/
+/raw/
+
+# Generated narration and audiobook outputs
+/prepared/
+/cache/
+/output/
+
+# Runtime logs
+/logs/
+*.log
+
+# Python virtual environments
+/.venv/
+venv/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Machine-specific configuration
+/config.json
+.env
+.env.*
+!.env.example
+
+# Windows files
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
